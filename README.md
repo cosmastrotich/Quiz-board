@@ -31,7 +31,7 @@ css (cascading stylesheet)
 
 Html (hypertext markup language)
 
-link of the qiuz formhttps://github.com/cosmastrotich/quiz-Board.git
+link of the qiuz formhttps://github.com/cosmastrotich/quiz-Board.git.com
 
 Lisence
 
