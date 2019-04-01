@@ -1,8 +1,8 @@
-///Business logi
-function add (question1, question2, question3){
+//Business logi
+function add (question1, question2, question3, question4){
   return (question1+question2+question3+question4);
 }
-///User logic
+//User logic
 $(document).ready(function(){
   $('#details').submit(function (event) {
     event.preventDefault();
