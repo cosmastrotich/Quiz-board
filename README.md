@@ -30,7 +30,10 @@ Not available at the moments
 
 2. Html (hypertext markup language)
 
-3. link of the qiuz formhttps://github.com/cosmastrotich/quiz-Board.git.com
+3. Css
+
+## link to the site
+ link of the qiuz formhttps://github.com/cosmastrotich/quiz-Board.git.com
 
 ## SLisence
 
