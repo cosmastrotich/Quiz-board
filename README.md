@@ -17,7 +17,7 @@ part 1
 ## BDD
 | BEHAVIOUR                       | INPUT                  | OUTPUT             |
 |---------------------------------|------------------------|--------------------|
-|scores above >80%                |      total marks       |  Execelent            |
+|scores above >80%                |      total marks       |  Execelent         |
 |scores above>50%                 |      total marks       |  fairly            |
 |scores below<50%                 |      total marks       |  fail and retry    |
 

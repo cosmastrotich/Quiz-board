@@ -4,9 +4,11 @@
   <title>Quiz Board</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
+  <div id="insert">
     <div class="container">
       <div class="well">
     <div class="row">
@@ -34,98 +36,98 @@
             <div class="form-group"> <label for="second-name">Second name:</label><input id="second-name" class="form-control" type="text"></div><br><br>
             <div class="form-group"> <label for="admission"> student admission number:</label><input id="admission" class="form-control" type="text"></div>
             <div id="submit">
-              <button type="submit" class="btn btn-danger">submit</button>
+              <button type="button" class="btn btn-danger" id="start-quiz">Submit</button>
             </div>
           </div>
         </div>
           </div>
-        </div>
-      </div>
-    </div>
-
   </form>
-    <form id="question1">
-    <h1>Javascripts trial questions</h1>
-<div class="well">
-    <div class=" panel-body">
-      <div class="col-md-4">
-          <p>1. How do you convert a string to integer? (25mks)</p>
-        <div class="question1">
-            <input type="radio" name="question1" value="0">toString<br>
-            <input type="radio" name="question1" value="0">toUpperCase<br>
-            <input type="radio" name="question1" value="25">parseInt<br>
-            <input type="radio" name="question1" value="0">None of the above<br>
+</div>
+  <p></p>
+  <div id="hidden">
+          <form id="question1">
+          <h1>Javascripts trial questions</h1>
+      <div class="well">
+          <div class=" panel-body">
+            <div class="col-md-4">
+                <p>1. How do you convert a string to integer? (25mks)</p>
+              <div class="question1">
+                  <input type="radio" name="question1" value="0">toString<br>
+                  <input type="radio" name="question1" value="0">toUpperCase<br>
+                  <input type="radio" name="question1" value="10">parseInt<br>
+                  <input type="radio" name="question1" value="0">None of the above<br>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            </form>
+
+        <div class="well">
+                  <div class="panel-body">
+                    <div class="col-md-4">
+                <p>2. Which is not the technology in coding?(25mks) </p>
+            <div class="question2">
+                  <input type="radio" name="question3" value="0">css<br>
+                  <input type="radio" name="question3" value="0">javascript<br>
+                  <input type="radio" name="question3" value="10">atom<br>
+                </div>
+              </div>
+              </div>
+            </div>
+
+        <div class="well">
+
+              <div class="panel-body">
+                <div class="col-md-4">
+                  <form id="question3">
+                <p>3. Which is not a arrays methods in coding?(25mks)</p>
+                <div class="question3">
+                  <input type="radio" name="question3" value="0">pop<br>
+                  <input type="radio" name="question3" value="0">Reverse<br>
+                  <input type="radio" name="question3" value="10">clone<br>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
-      </div>
-    </div>
+
+            <div class="well">
+                    <div class="panel-body">
+                      <div class="col-sm-18">
+                  <p>4. Bootsrap theme caintain the following which on is not?(25mks)</p>
+                  <div class="quetion4">
+                  <input type="radio" name="question4" value="0">.visuial effects<br>
+                  <input type="radio" name ="question4" value="10">.styles.css<br>
+                  <input type="radio" name="question4" value="0">.animations<br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="well">
+                <div class="row">
+                  <div class="col-md-3">
+                    <button type="submit" class="btn btn-danger" id="marks">Submit</button>
+                  <div class ="row" id="try">
+                    <div class="col-md-3">
+                      <button type="Retry" class="btn btn-primary">Retry</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </form>
 
-  <div class="well">
-            <div class="panel-body">
-              <div class="col-md-4">
-          <p>2. Which is not the technology in coding?(25mks) </p>
-      <div class="question2">
-            <input type="radio" name="question3" value="0">css<br>
-            <input type="radio" name="question3" value="0">javascript<br>
-            <input type="radio" name="question3" value="25">atom<br>
-          </div>
-        </div>
-        </div>
-      </div>
 
-  <div class="well">
-    ,,,,,
-        <div class="panel-body">
-          <div class="col-md-4">
-            <form id="question3">
-          <p>3. Which is not a arrays methods in coding?(25mks)</p>
-          <div class="question3">
-            <input type="radio" name="question3" value="0">pop<br>
-            <input type="radio" name="question3" value="0">Reverse<br>
-            <input type="radio" name="question3" value="25">clone<br>
-          </div>
-        </div>
-      </div>
-    </div>
-,,,,,,,
-      <div class="well">
-              <div class="panel-body">
-                <div class="col-sm-18">
-            <p>4. Bootsrap theme caintain the following which on is not?(25mks)</p>
-            <div class="quetion4">
-            <input type="radio" name="question4" value="0">.visuial effects<br>
-            <input type="radio" name ="question4" value="25">.styles.css<br>
-            <input type="radio" name="question4" value="0">.animations<br>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  <div class="well">
-          <div class="row">
-            <div class="col-md-3">
-              <button type="submit" class="btn btn-danger">Submit</button>
-            <div class ="row">
-            <div class="col-md-3">
-              <button type="Retry" class="btn btn-primary">Retry</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</form>
+          Score: <span class="studentScore"></span>
+          <br>
 
-        <div class="row">
-          <div class="col-md-8"
-          <div id="score"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
   <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/scrpit.js"></script>
 </div>
 </div>
 </body>
