@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $("#start-quiz").click(function() {
     $("#insert").fadeOut(function() {
@@ -11,20 +12,12 @@ $(document).ready(function() {
           var total = sum(question1, question2, question3,quetion4);
 
           $("#hidden").fadeOut(function() {
-            $("#score").fadeIn(function() {})
+            $("#score").fadeIn(function() {
+
+            })
           })
-
-        //Backend
-        var percent = (total/40)*100;
-        })
-      })
-    })
-  })
-
-
-
-
-
-
-
+       
+})
+})
+})
 })

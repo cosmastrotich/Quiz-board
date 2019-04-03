@@ -11,7 +11,6 @@ part 1
 ## Quiz board questions
  part 3
 
- it's part results are displayed to the user to and know the results
  it has multiple questions with multiple choices
  results are given out after the user has key in the answers and promt either has exellent results ,average or fail which he/she allowed to retake the questions again
 ## BDD
@@ -33,8 +32,7 @@ Not available at the moments
 3. Css
 
 ## link to the site
- link of the qiuz formhttps://github.com/cosmastrotich/quiz-Board.git.com
-
-## SLisence
+ https://github.com/cosmastrotich/quiz-board.git
+## Lisence
 
 COPYRIGHT 2019 COSMAS ROTICH
